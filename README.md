@@ -1,57 +1,32 @@
 Sales Data BI
 ==============================
 
-A short description of the project.
+Este repositorio contiene la información correspondiente al proyecto de análisis de ventas, dividido en los siguientes apartados:
 
-Project Organization
+Organización del proyecto
 ------------
+```
+├── LICENSE
+├── README.md          <- El README de nivel superior para desarrolladores que utilizan este proyecto.
+├── data
+│   ├── external       <- Bases de datos de terceros.
+│   ├── interim        <- Datos intermedios que han sido transformados.
+│   ├── processed      <- Conjuntos de datos finales y canónicos para modelado.
+│   └── raw            <- Datos originales.
+├── models             <- Modelos entrenados y serializados, predicciones del modelo o resúmenes del modelo
+├── notebooks          <- Notebooks de Jupyter
+├── references         <- Diccionarios de datos, manuales y todos los demás materiales explicativos.
+├── reports            <- Análisis generado en formatos HTML, PDF, LaTeX, etc.
+│   └── figures        <- Gráficos y figuras generados para usar en los informes
+├── requirements.txt   <- El archivo de requisitos para reproducir el entorno de análisis
+└── src                <- Código fuente para usar en este proyecto.
+   ├── __init__.py    <- Hace que src sea un módulo de Python
+   ├── data           <- Scripts para descargar o generar datos
+   ├── features       <- Scripts para convertir datos crudos en características para el modelado
+   ├── models         <- Scripts para entrenar modelos y luego utilizar modelos entrenados para hacer predicciones
+   └── visualization  <- Scripts para crear visualizaciones exploratorias y orientadas a resultados
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
+```
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+**Proyecto basado en la plantilla de cookiecutter para ciencia de datos**
